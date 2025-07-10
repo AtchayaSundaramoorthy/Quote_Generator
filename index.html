@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fantasy Quotes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🍂 Whispers in the Forest</h1>
+    <p><span>A whispering forest where lost souls, dreamers, and legends once spoke their truths...</span></p>
+
+    <div class="controls">
+      <select id="category">
+        <option value="lotr">Fantasy Quotes</option>
+        <option value="lotr">The Lord of the Rings</option>
+        <option value="hp">Harry Potter</option>
+        <option value="got">Game of Thrones</option>
+        <option value="witcher">The Witcher</option>
+        <option value="alice">Alice in Wonderland</option>
+        <option value="narnia">Chronicles of Narnia</option>
+        <option value="ghibli">Studio Ghibli</option>
+        <option value="sab">Shadow and Bone</option>
+      </select>
+      <button onclick="generateQuote()">Reveal a Whisper</button>
+      <a id="tweet" target="_blank">📜 Tweet this</a>
+    </div>
+
+    <div class="quote-box" id="quoteBox">
+      <p id="quote">“Choose a realm and awaken its words...”</p>
+      <p id="author">— Forest Oracle</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
