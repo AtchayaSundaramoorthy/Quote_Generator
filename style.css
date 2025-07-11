@@ -13,7 +13,6 @@ body {
   color: #f8e9d3;
 }
 
-/* Dim overlay */
 body::after {
   content: "";
   position: absolute;
